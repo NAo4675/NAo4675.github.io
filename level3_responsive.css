@@ -1,0 +1,57 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+    
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    
+    .container h2 {
+      font-size: 20px;
+    }
+    
+    footer {
+      text-align: center;
+    }
+    
+  }
+  
+  /* モバイル向けレイアウト */
+  @media all and (max-width: 670px) {
+    .header-right {
+      display: none;
+    }
+    
+    .hambarger {
+      display: block;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 24px;
+      text-align: left;
+    }
+    
+    .lead {
+      font-size: 14px;
+      text-align: left;
+    }
+    
+    .top-wrapper a {
+      width: 100%;
+    }
+    
+    .facebook {
+      margin-bottom: 10px;
+    }
+    
+    .lesson {
+      width: 100%;
+    }
+    .message {
+      width: 100%;
+    }
+    
+  }
